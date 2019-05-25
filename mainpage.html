@@ -42,7 +42,11 @@
    </head>
 <body>
 <script>
-      alert("Привіт!");
+      $(document).ready(() => {
+     $('.btn btn-default dropdown-toggle').on('mouseenter', () => {
+    $('.dropdown-menu').show()
+  })
+});
    </script>
 <h1></h1>
 <div class="dropdown">
